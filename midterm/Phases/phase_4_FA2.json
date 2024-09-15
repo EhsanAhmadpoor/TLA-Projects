@@ -1,0 +1,15 @@
+{
+  "states": "{'r0','r1','r2'}",
+  "input_symbols": "{'a','b'}",
+  "transitions": {
+    "r0": {
+      "b": "{'r1'}"
+    },
+    "r1": {
+      "a": "{'r2'}"
+    },
+    "r2": {}
+  },
+  "initial_state": "r0",
+  "final_states": "{'r2'}"
+}
